@@ -4,7 +4,7 @@ animate.css+WOW.js组合使用，可以轻松实现各种动画效果
 
 - [animate.css官网:](https://daneden.github.io/animate.css/)
 - [WOW.js官网:](http://mynameismatthieu.com/WOW/)
-- [组合项目效果演示:]()
+- [组合项目效果演示:](https://appursuefaith.github.io/animate.css-WOW.js/index.html)
 
 ## 基本用法
 
@@ -41,8 +41,8 @@ animate.css+WOW.js组合使用，可以轻松实现各种动画效果
 
 ```html
 	<div class="wow animated fadeIn">
-        <span>fadeIn</span>
-    </div>
+		<span>fadeIn</span>
+	</div>
 ```
 
 ## 本次学习只是简单的介绍animate.css和WOW.js的组合使用
