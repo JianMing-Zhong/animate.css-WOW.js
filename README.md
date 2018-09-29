@@ -12,7 +12,6 @@ animate.css+WOW.js组合使用，可以轻松实现各种动画效果
 
 ```html
 	<link rel="stylesheet" href="./animate/animate.css">
-	<script src="./wow/js/wow.min.js"></script>
 ```
 
 - 引入wow.js
