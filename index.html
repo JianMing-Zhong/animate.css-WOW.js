@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./animate/animate.css">
+    <link rel="stylesheet" href="./wow/css/animate.css">
+    <script src="./wow/js/wow.min.js"></script>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        font-size: 16px;
+        font-family: "微软雅黑";
+        letter-spacing: 1px;
+    }
+
+    .bg-green {
+        background: #5bd5a0;
+    }
+
+    .bg-blue {
+        background: #1daee9;
+    }
+
+    .bg-purple {
+        background: #c843a5;
+    }
+
+    .bg-red {
+        background: #eb3980;
+    }
+
+    .bg-yellow {
+        background: #ffcc35;
+    }
+
+    .title h1 {
+        font-weight: 500;
+        font-size: 55px;
+        margin: 50px 0px;
+        text-align: center;
+    }
+
+    .title p {
+        text-align: center;
+        font-size: 20px;
+    }
+    .main{
+        padding-top: 20px;
+        width: 970px;
+        margin: 0 auto;
+    }
+    .main .box{
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        float: left;
+    }
+    .main .box span{
+        display: block;
+        text-align: center;
+        line-height: 280px;
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <div class="title">
+        <h1>animate.css && WOW.js</h1>
+        <p>使用animate.css提供的动画跟wow.js提供的页面滚动组合显示</p>
+        <p>本页面隐藏了部分效果，如需观看，下载本页面后打开注释即可查看</p>
+    </div>
+    <div class="main">
+        <div class="box bg-green wow animated bounce">
+            <span>bounce</span>
+        </div>
+        <div class="box bg-blue wow animated flash">
+            <span>flash</span>
+        </div>
+        <div class="box bg-purple wow animated pulse">
+            <span>pulse</span>
+        </div>
+        <div class="box bg-red wow animated rubberBand">
+            <span>rubberBand</span>
+        </div>
+        <div class="box bg-yellow wow animated shake">
+            <span>shake</span>
+        </div>
+        <div class="box bg-green wow animated swing">
+            <span>swing</span>
+        </div>
+        <div class="box bg-red wow animated tada">
+            <span>tada</span>
+        </div>
+        <div class="box bg-purple wow animated wobble">
+            <span>wobble</span>
+        </div>
+        <div class="box bg-yellow wow animated jello">
+            <span>jello</span>
+        </div>
+        <div class="box bg-blue wow animated bounceIn">
+            <span>bounceIn</span>
+        </div>
+        <div class="box bg-yellow wow animated bounceInDown">
+            <span>bounceInDown</span>
+        </div>
+        <div class="box bg-green wow animated bounceInLeft">
+            <span>bounceInLeft</span>
+        </div>
+        <div class="box bg-red wow animated bounceInRight">
+            <span>bounceInRight</span>
+        </div>
+        <div class="box bg-purple wow animated bounceInUp">
+            <span>bounceInUp</span>
+        </div>
+        <!-- <div class="box bg-yellow wow animated bounceOut all">
+            <span>bounceOut</span>
+        </div>
+        <div class="box bg-red wow animated bounceOutDown all">
+            <span>bounceOutDown</span>
+        </div>
+        <div class="box bg-yellow wow animated bounceOutLeft all">
+            <span>bounceOutLeft</span>
+        </div>
+        <div class="box bg-purple wow animated bounceOutRight all">
+            <span>bounceOutRight</span>
+        </div>
+        <div class="box bg-blue wow animated bounceOutUp all">
+            <span>bounceOutUp</span>
+        </div> -->
+        <div class="box bg-green wow animated fadeIn">
+            <span>fadeIn</span>
+        </div>
+        <div class="box bg-yellow wow animated fadeInDown">
+            <span>fadeInDown</span>
+        </div>
+        <div class="box bg-green wow animated fadeInDownBig">
+            <span>fadeInDownBig</span>
+        </div>
+        <div class="box bg-blue wow animated fadeInLeft">
+            <span>fadeInLeft</span>
+        </div>
+        <div class="box bg-purple wow animated fadeInLeftBig">
+            <span>fadeInLeftBig</span>
+        </div>
+        <div class="box bg-red wow animated fadeInRight">
+            <span>fadeInRight</span>
+        </div>
+        <div class="box bg-purple wow animated fadeInRightBig">
+            <span>fadeInRightBig</span>
+        </div>
+        <div class="box bg-yellow wow animated fadeInUp">
+            <span>fadeInUp</span>
+        </div>
+        <div class="box bg-green wow animated fadeInBig">
+            <span>fadeInBig</span>
+        </div>
+        <!-- <div class="box bg-purple wow animated fadeOut all">
+            <span>fadeOut</span>
+        </div>
+        <div class="box bg-yellow wow animated fadeOutDown all">
+            <span>fadeOutDown</span>
+        </div>
+        <div class="box bg-red wow animated fadeOutDownBig all">
+            <span>fadeOutDownBig</span>
+        </div>
+        <div class="box bg-blue wow animated fadeOutLeft all">
+            <span>fadeOutLeft</span>
+        </div>
+        <div class="box bg-red wow animated fadeOutLeftBig all">
+            <span>fadeOutLeftBig</span>
+        </div>
+        <div class="box bg-purple wow animated fadeOutRight all">
+            <span>fadeOutRight</span>
+        </div>
+        <div class="box bg-red wow animated fadeOutRightBig all">
+            <span>fadeOutRightBig</span>
+        </div>
+        <div class="box bg-purple wow animated fadeOutUp all">
+            <span>fadeOutUp</span>
+        </div>
+        <div class="box bg-yellow wow animated fadeOutUpBig all">
+            <span>fadeOutUpBig</span>
+        </div> -->
+        <div class="box bg-yellow wow animated flip">
+            <span>flip</span>
+        </div>
+        <div class="box bg-green wow animated flipInX">
+            <span>flipInX</span>
+        </div>
+        <div class="box bg-blue wow animated flipInY">
+            <span>flipInY</span>
+        </div>
+        <!-- <div class="box bg-purple wow animated flipOutX all">
+            <span>flipOutX</span>
+        </div>
+        <div class="box bg-yellow wow animated flipOutY all">
+            <span>flipOutY</span>
+        </div> -->
+        <div class="box bg-purple wow animated lightSpeedIn">
+            <span>lightSpeedIn</span>
+        </div>
+        <!-- <div class="box bg-blue wow animated lightSpeedOut all">
+            <span>lightSpeedOut</span>
+        </div> -->
+        <div class="box bg-red wow animated rotateIn">
+            <span>rotateIn</span>
+        </div>
+        <div class="box bg-yellow wow animated rotateInDownLeft">
+            <span>rotateInDownLeft</span>
+        </div>
+        <div class="box bg-green wow animated rotateInDownRight">
+            <span>rotateInDownRight</span>
+        </div>
+        <!-- <div class="box bg-red wow animated rotateOutUpLeft all">
+            <span>rotateOutUpLeft</span>
+        </div>
+        <div class="box bg-green wow animated rotateOutUpRight all">
+            <span>rotateOutUpRight</span>
+        </div> -->
+        <div class="box bg-purple wow animated slideInUp">
+            <span>slideInUp</span>
+        </div>
+        <div class="box bg-yellow wow animated slideInDown">
+            <span>slideInDown</span>
+        </div>
+        <div class="box bg-purple wow animated slideInLeft">
+            <span>slideInLeft</span>
+        </div>
+        <div class="box bg-blue wow animated slideInRight">
+            <span>slideInRight</span>
+        </div>
+        <!-- <div class="box bg-purple wow animated slideOutUp all">
+            <span>slideOutUp</span>
+        </div>
+        <div class="box bg-blue wow animated slideOutDown all">
+            <span>slideOutDown</span>
+        </div>
+        <div class="box bg-green wow animated slideOutLeft all">
+            <span>slideOutLeft</span>
+        </div>
+        <div class="box bg-red wow animated slideOutRight all">
+            <span>slideOutRight</span>
+        </div> -->
+        <div class="box bg-blue wow animated zoomIn">
+            <span>zoomIn</span>
+        </div>
+        <div class="box bg-green wow animated zoomInDown">
+            <span>zoomInDown</span>
+        </div>
+        <div class="box bg-yellow wow animated zoomInLeft">
+            <span>zoomInLeft</span>
+        </div>
+        <div class="box bg-purple wow animated zoomInRight">
+            <span>zoomInRight</span>
+        </div>
+        <div class="box bg-red wow animated zoomInUp">
+            <span>zoomInUp</span>
+        </div>
+        <!-- <div class="box bg-yellow wow animated zoomOut all">
+            <span>zoomOut</span>
+        </div>
+        <div class="box bg-purple wow animated zoomOutDown all">
+            <span>zoomOutDown</span>
+        </div>
+        <div class="box bg-red wow animated zoomOutLeft all">
+            <span>zoomOutLeft</span>
+        </div>
+        <div class="box bg-blue wow animated zoomOutRight all">
+            <span>zoomOutRight</span>
+        </div>
+        <div class="box bg-yellow wow animated zoomOutUp all">
+            <span>zoomOutUp</span>
+        </div> -->
+        <div class="box bg-purple wow animated hinge">
+            <span>hinge</span>
+        </div>
+        <div class="box bg-red wow animated jackIn TheBox">
+            <span>jackIn TheBox</span>
+        </div>
+        <div class="box bg-purple wow animated rollIn">
+            <span>rollIn</span>
+        </div>
+        <!-- <div class="box bg-red wow animated rollOut all">
+            <span>rollOut</span>
+        </div> -->
+    </div>
+</body>
+
+</html>
+<script>
+    // new WOW.init();
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 0,
+        mobile: true,
+        live: true,
+    });
+    wow.init();
+</script>
