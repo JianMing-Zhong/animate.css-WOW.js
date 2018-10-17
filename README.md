@@ -4,7 +4,7 @@ animate.css+WOW.js组合使用，可以轻松实现各种动画效果
 
 - [animate.css官网:](https://daneden.github.io/animate.css/)
 - [WOW.js官网:](http://mynameismatthieu.com/WOW/)
-- [组合项目效果演示:](https://appursuefaith.github.io/animate.css-WOW.js/index.html)
+- [组合项目效果演示:](https://JianMing-Zhong.github.io/animate.css-WOW.js/index.html)
 
 ## 基本用法
 
